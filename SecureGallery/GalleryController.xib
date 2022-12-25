@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GalleryController" customModule="SecureGallery" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="dCM-Vq-060" id="O46-c7-feg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAT-2p-fd9">
+                    <rect key="frame" x="319" y="47" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="4l8-jD-Ugj"/>
+                        <constraint firstAttribute="height" constant="40" id="EVu-z2-Lkm"/>
+                    </constraints>
+                    <color key="tintColor" systemColor="linkColor"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=" ">
+                        <imageReference key="image" image="plus" catalog="system" variableValue="1"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="addImageButton:" destination="-1" eventType="touchUpInside" id="EeC-Zw-weU"/>
+                    </connections>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="dCM-Vq-060">
+                    <rect key="frame" x="0.0" y="103" width="375" height="675"/>
+                    <color key="tintColor" name="AccentColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rK3-xj-wVq">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJo-DD-3d6">
+                    <rect key="frame" x="0.0" y="47" width="77.333333333333329" height="34.333333333333343"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system" title="Back"/>
+                    <connections>
+                        <action selector="BackButton:" destination="-1" eventType="touchUpInside" id="N0X-GX-JVm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dCM-Vq-060" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="4kd-8m-AdU"/>
+                <constraint firstItem="pJo-DD-3d6" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="8TX-AL-kHw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aAT-2p-fd9" secondAttribute="trailing" constant="16" id="Ri1-oF-a0c"/>
+                <constraint firstItem="aAT-2p-fd9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="VIH-Di-KbH"/>
+                <constraint firstItem="dCM-Vq-060" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ih2-wI-3sB"/>
+                <constraint firstItem="dCM-Vq-060" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="56" id="pGF-rj-e4h"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dCM-Vq-060" secondAttribute="bottom" id="uj0-oU-lOC"/>
+                <constraint firstItem="pJo-DD-3d6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zFd-RW-BQS"/>
+            </constraints>
+            <point key="canvasLocation" x="-53.600000000000001" y="19.95073891625616"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

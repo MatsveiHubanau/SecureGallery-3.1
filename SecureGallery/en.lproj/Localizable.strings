@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  SecureGallery
+
+  Created by Admin on 24.12.22.
+  
+*/
+
+//Strings in action sheet that pops up on 'Contact the developer' button:
+"TEXT_SEND_SMS" = "Send SMS";
+"TEXT_SEND_EMAIL" = "Send Email";
+"TEXT_PHONE_CALL" = "Phone call";
+"TEXT_CANCEL" = "Cancel";
+"TEXT_TELEGRAM" = "Text in telegram";
+"TEXT_TO_CHOOSE" = "Choose the way to contact";
+
+//Strings  in alert after wrong PIN entered
+"TEXT_PIN" = "Enter PIN";
+"TEXT_WRONGPIN" = "Wrong PIN";
+"TEXT_RETRY" = "Try again";
+
+//Strings in alert on rejected FaceID
+"TEXT_FACEID_REJECTED"= "FaceID Auth not available";
+"TEXT_DISMISS" = "Dismiss";

@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "SecureGallery"; ObjectID = "4e0-fJ-vLR"; */
+"4e0-fJ-vLR.text" = "SecureGallery";
+
+/* Class = "UIButton"; configuration.title = "TEXT_ENTER_FACEID"; ObjectID = "S6F-NU-wp4"; */
+"S6F-NU-wp4.configuration.title" = " Identify via FaceID";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "S6F-NU-wp4"; */
+"S6F-NU-wp4.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YZb-Yf-cYj"; */
+"YZb-Yf-cYj.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "TEXT_CONTACT_DEVS"; ObjectID = "eZf-s1-NzG"; */
+"eZf-s1-NzG.configuration.title" = " Contact the developer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eZf-s1-NzG"; */
+"eZf-s1-NzG.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hIT-84-wi0"; */
+"hIT-84-wi0.normalTitle" = "Button";

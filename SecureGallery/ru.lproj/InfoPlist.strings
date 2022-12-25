@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  SecureGallery
+
+  Created by Admin on 24.12.22.
+  
+*/
+"NSFaceIDUsageDescription" = "Приложение хочет использовать вашу биометрию";
+
+"NSCameraUsageDescription" = "Это приложение хочет получить доступ к камере";
+
+"NSPhotoLibraryUsageDescription" = "Это приложение хочет получить доступ к фотографиям";

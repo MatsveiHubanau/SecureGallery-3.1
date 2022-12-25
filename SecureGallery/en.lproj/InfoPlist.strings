@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  SecureGallery
+
+  Created by Admin on 24.12.22.
+  
+*/
+"NSFaceIDUsageDescription" = "This app will use your biometry to auth";
+
+"NSCameraUsageDescription" = "This app wants to use your camera";
+
+"NSPhotoLibraryUsageDescription" = "This app wants to use your photos";
